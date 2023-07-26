@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>input_attribute</title>
+</head>
+
+<body>
+    <form action="">
+        <div>
+            <input type="text" name="username" placeholder="아이디입력" required autofocus>    
+        </div>
+
+        <div>
+            <input type="password" name="password" placeholder="비밀번호입력" required>    
+        </div>
+
+        <div>
+            <input type="text" name="name" placeholder="김준일" disabled>    
+        </div>
+
+        <div>
+            <input type="email" name="email" placeholder="이메일입력" >    
+        </div>
+
+        <div>
+            <textarea name="content" cols="30" rows="10">텍스트</textarea>
+        </div>
+
+        <div>
+            <select name="product">
+                <option value="aaa">상품1</option>
+                <option value="bbb">상품2</option> 
+                <option value="ccc">상품3</option>
+                <option value="ddd">상품4</option>
+            </select>
+        </div>
+
+        <div>
+            <input type="text" list ="user" name="user">
+            <datalist id="user">
+                <option value="user1">username1</option>
+                <option value="user2">username2</option>
+                <option value="user3">name3</option>
+                <option value="user4">name4</option>
+            </datalist>
+        </div>
+
+        <button type="submit">전송</button>    
+        <button type="button">버튼</button>    
+        <button type="reset">초기화</button>    
+    </form>
+    
+</body>
+</html>
